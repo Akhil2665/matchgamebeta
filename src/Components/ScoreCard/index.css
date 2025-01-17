@@ -1,0 +1,59 @@
+.scorecard-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  height: 380px;
+  width: 280px;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 10%;
+  line-height: 0.8;
+}
+p.small {
+  line-height: 0.8;
+}
+
+p.big {
+  line-height: 1.8;
+}
+.trophy {
+  height: 80px;
+  width: 140px;
+}
+.play-again-button {
+  border: none;
+  outline: none;
+  background-color: #cf60c8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.play-again-button:hover {
+  cursor: pointer;
+  background-color: #269461;
+  scale: 1.3;
+}
+@media (min-width: 768px) {
+  .scorecard-container {
+    min-height: 680px;
+    min-width: 480px;
+  }
+
+  .trophy {
+    height: 180px;
+    width: 280px;
+  }
+  .player-score {
+    font-size: 40px;
+    font-weight: 600;
+  }
+}
